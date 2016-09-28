@@ -1,0 +1,48 @@
+{
+    "author": "Game Time",
+    "dependencies": {
+        "pebble-clay": "^1.0.0"
+    },
+    "keywords": [],
+    "name": "overwatch",
+    "pebble": {
+        "capabilities": [
+            "location",
+            "configurable",
+            "health"
+        ],
+        "displayName": "Overwatch",
+        "enableMultiJS": true,
+        "messageKeys": [
+            "Comp1",
+            "Comp2",
+            "Comp3",
+            "Comp4",
+            "Hero",
+            "HourlyVibe",
+            "Flick",
+            "Interval",
+            "Provider",
+            "API",
+            "Scale",
+            "City",
+            "Temperature"
+        ],
+        "projectType": "native",
+        "resources": {
+            "media": []
+        },
+        "sdkVersion": "3",
+        "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+        ],
+        "uuid": "4b6929d0-7fd6-48aa-9079-c970287b188b",
+        "watchapp": {
+            "watchface": true
+        }
+    },
+    "version": "1.0.0"
+}
